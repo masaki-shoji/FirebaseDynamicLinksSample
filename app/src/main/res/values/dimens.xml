@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="medium">24dp</dimen>
+    <dimen name="small">12dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+</resources>
