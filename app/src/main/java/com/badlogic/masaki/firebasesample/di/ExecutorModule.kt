@@ -21,4 +21,12 @@ open class ExecutorModule {
 
     @Provides @Singleton @Named("computation")
     fun provideComputationExecutor(): Executor = ComputationExecutor()
+
+    @Provides @Singleton
+    fun provideAppExecutors(@Named("mainThread")mainThread: Executor,
+                            @Named("networkIO") networkIO: Executor,
+                            @Named("diskIO") diskIO: Executor,
+                            @Named("computation") computation: Executor): ApplicationExecutor {
+        return AppExecutors(mainThread, networkIO, diskIO, computation)
+    }
 }
