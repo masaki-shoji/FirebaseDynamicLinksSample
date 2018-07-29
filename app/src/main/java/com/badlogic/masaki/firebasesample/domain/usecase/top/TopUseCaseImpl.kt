@@ -1,4 +1,4 @@
-package com.badlogic.masaki.firebasesample.domain.usecase.top
+package com.badlogic.masaki.firebasesample.domain.usecase.top;
 
 import com.badlogic.masaki.firebasesample.data.repository.DynamicLinkDataSource
 import com.badlogic.masaki.firebasesample.di.annotation.ActivityScoped
