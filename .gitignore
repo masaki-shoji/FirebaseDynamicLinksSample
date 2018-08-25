@@ -12,3 +12,5 @@
 .externalNativeBuild
 *.keystore
 **/google-services.json
+es.bin
+tFiles.bin
