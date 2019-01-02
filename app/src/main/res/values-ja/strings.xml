@@ -1,0 +1,8 @@
+<resources>
+    <string name="to_license">OSSについて</string>
+    <string name="to_oss">OSS画面へ</string>
+    <string name="to_webView">WebView画面へ</string>
+    <string name="to_github">GitHubへ</string>
+    <string name="splash">スプラッシュ</string>
+    <string name="meaningless">Meaningless</string>
+</resources>

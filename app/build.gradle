@@ -9,8 +9,8 @@ android {
         applicationId "com.badlogic.masaki.firebasesample"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 6
-        versionName "1.0.2"
+        versionCode 8
+        versionName "1.0.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
@@ -38,6 +38,20 @@ android {
             zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
+        }
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+
+        density {
+            enableSplit = true
+        }
+
+        abi {
+            enableSplit = true
         }
     }
 
